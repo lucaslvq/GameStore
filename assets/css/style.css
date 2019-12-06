@@ -1,0 +1,41 @@
+/* CSS NAVBAR */
+
+.navHidden {
+    background-color: rgba(255, 255, 255, 0.5) !important; 
+}
+.navBarColor {
+    width: 100%;
+    height: 4.3rem;
+    background-color: #3F729B  !important; 
+}
+.colorItemNavBar{
+    color: black !important;
+    font-weight: bold;
+}
+.btnSignDropdown{
+    margin-left: 5rem;
+}
+.checkBoxSign{
+   margin-left: 4rem;
+}
+.remberSign{
+    margin-left: 5rem;
+}
+
+.sizeImg{
+    width: 5rem;
+}
+
+
+/* CSS FOOTER */
+
+.footerColor{
+    background-color: #3F729B !important;
+}
+
+body {
+background: url('../img/background.jpg');
+background-size: cover;
+background: center;
+background-attachment: fixed;
+}
