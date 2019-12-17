@@ -2,11 +2,10 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Category_models extends CI_Model{
+class Category_model extends CI_Model{
     
     public function listCategory(){
         
-        $this->load->database();
         return $this->db->get('category')->result();
     }
     /*Permet d'afficher la liste de categorie*/
@@ -29,7 +28,7 @@ class Category_models extends CI_Model{
     }
     /*Permet de modifier une categorie*/
     
-    public function deleteCategory(){
+    public function deleteCategory($id){
         $this->db->where('ID_CATEGORY', $id);
         $this->db->delete('category');
     }
@@ -37,7 +36,6 @@ class Category_models extends CI_Model{
     
     public function selectOne($id){
         
-        $this->load->database();
         $this->db->where('ID_CATEGORY', $id);
         return $this->db->get('category')->result();
     }

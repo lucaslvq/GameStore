@@ -5,7 +5,7 @@ if (!defined('BASEPATH'))
 
 class user_models extends CI_Model {
 
-    public function signIn() {
+    public function signIn($account) {
         $verifSignIn = $this->db->query('SELECT pseudo, password FROM users WHERE pseudo = ?', $account);
         $account = $verifSignIn->row();
         return $account;

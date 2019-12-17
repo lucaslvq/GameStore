@@ -1,41 +1,235 @@
-/* CSS NAVBAR */
-
-.navHidden {
-    background-color: rgba(255, 255, 255, 0.5) !important; 
-}
-.navBarColor {
-    width: 100%;
-    height: 4.3rem;
-    background-color: #3F729B  !important; 
-}
-.colorItemNavBar{
-    color: black !important;
-    font-weight: bold;
-}
-.btnSignDropdown{
-    margin-left: 5rem;
-}
-.checkBoxSign{
-   margin-left: 4rem;
-}
-.remberSign{
-    margin-left: 5rem;
-}
-
-.sizeImg{
-    width: 5rem;
-}
-
-
-/* CSS FOOTER */
-
-.footerColor{
-    background-color: #3F729B !important;
-}
-
-body {
-background: url('../img/background.jpg');
-background-size: cover;
-background: center;
-background-attachment: fixed;
-}
+    body {
+        background-image: url('../img/background.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    .colorBlue {
+        background-color: #09667d !important;
+    }
+    /* CSS NAVBAR */
+    
+    .navHidden {
+        background-color: rgba(255, 255, 255, 0.5) !important;
+    }
+    
+    .navBarColor {
+        width: 100%;
+        height: 4.3rem;
+        background-color: #09667d !important;
+        ;
+    }
+    
+    .linkCategory {
+        background-color: none;
+    }
+    
+    .linkCategory:hover {
+        background-color: #09667d;
+        font-weight: 700;
+    }
+    
+    .colorItemNavBar {
+        color: white !important;
+        font-weight: bold;
+    }
+    
+    .btnSignDropdown {
+        margin-left: 5rem;
+    }
+    
+    .checkBoxSign {
+        margin-left: 4rem;
+    }
+    
+    .remberSign {
+        margin-left: 5rem;
+    }
+    
+    .sizeLogo {
+        width: 5rem;
+    }
+    /* CSS FOOTER */
+    
+    .footerColor {
+        background-color: #3F729B !important;
+    }
+    /* CSS PAGE listGame.php */
+    
+    .categoryGame {
+        color: white;
+        margin-right: 12rem;
+    }
+    
+    .price {
+        position: absolute;
+        color: white;
+        margin-left: -3rem;
+    }
+    
+    .sizeProduct {
+        width: 16rem;
+    }
+    /* SECTION BESTPRODUCT */
+    
+    #titleBestProduct {
+        color: white;
+    }
+    
+    .badgePlatform {
+        position: absolute;
+        width: 2rem;
+        z-index: 1;
+        margin-left: 14.5rem;
+        margin-top: -1rem;
+    }
+    
+    .shadow {
+        position: absolute;
+        background-color: rgb(0, 0, 0, 0.6);
+        width: 16rem;
+        bottom: 0;
+        height: 1.5rem;
+    }
+    
+    .nameGame {
+        font-size: 0.9rem;
+    }
+    
+    .bestProduct {
+        background-color: #09667d !important;
+        ;
+        width: 7rem;
+        color: white;
+        font-weight: 700;
+    }
+    /* SECTION POPULARGAME */
+    
+    .popularProduct {
+        background-color: rgb(255, 255, 255, 0.9) !important;
+        height: 37rem;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    
+    .imgPGame {
+        width: 100%;
+    }
+    
+    .badgePlatformPGame {
+        position: absolute;
+        width: 2rem;
+        z-index: 1;
+        margin-left: 16.5rem;
+        margin-top: -1rem;
+    }
+    
+    .shadowPGame {
+        position: absolute;
+        background-color: rgb(0, 0, 0, 0.6);
+        width: 18.5rem;
+        bottom: 0;
+        height: 1.5rem;
+    }
+    
+    .categoryPGame {
+        color: white;
+    }
+    
+    .pricePGame {
+        color: white;
+        margin-left: 11.5rem;
+    }
+    
+    .rewardPGame {
+        margin-top: 1rem;
+        color: rgb(180, 131, 18);
+    }
+    
+    .pagination {
+        margin-top: 5rem;
+        margin-left: 50rem;
+        margin-bottom: 2rem;
+    }
+    /* CSS PAGE productDetail.PHP */
+    
+    .imgDetail {
+        margin-left: 1rem;
+    }
+    
+    .sizeImgShare {
+        width: 4rem;
+        margin-top: 0.5rem;
+    }
+    
+    .iconPlatform {
+        width: 2rem;
+    }
+    
+    .cardProductDetail {
+        margin-right: 1rem;
+        height: 100%;
+    }
+    
+    .headingDetail {
+        background-color: rgb(255, 255, 255, 0.9) !important;
+    }
+    
+    .content {
+        background-color: rgb(255, 255, 255, 0.9) !important;
+    }
+    
+    .priceDetail {
+        font-size: 1.5rem;
+    }
+    
+    .contentAbout {
+        background-color: #09667d !important;
+        border: solid;
+        border-width: 1rem;
+        border-color: #09667d !important;
+    }
+    
+    ul.tabs {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+    }
+    
+    ul.tabs li {
+        background: none;
+        color: #222;
+        display: inline-block;
+        padding: 10px 15px;
+        cursor: pointer;
+    }
+    
+    ul.tabs li.current {
+        background: white;
+        color: #fe914d;
+        font-weight: 700;
+    }
+    
+    .tab-content {
+        display: none;
+        background: white;
+        padding: 15px;
+    }
+    
+    .contentTab {
+        color: black;
+        font-weight: 700;
+    }
+    
+    .tab-content.current {
+        display: inherit;
+    }
+    /* CSS SignUp */
+    
+    .error {
+        color: white;
+    }
+    
+    .labelSignUp {
+        color: white;
+    }

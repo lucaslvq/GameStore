@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer class="page-footer font-small footerColor">
+<footer class="page-footer font-small colorBlue">
     <!-- Footer Links -->
     <div class="container text-center text-md-left">
         <!-- Grid row -->
@@ -111,6 +111,7 @@
 <!-- MDB core JavaScript -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/js/mdb.min.js"></script>
 <!-- My JS -->
-<script type="text/javascript" src="../assets/js/.."></script>
+<script type="text/javascript" src="<?= base_url("assets/js/script.js"); ?>"></script>
 </body>
+
 </html>

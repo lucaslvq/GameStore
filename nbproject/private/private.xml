@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
-    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>application/views/listGame.php</url>
+            <bookmark id="1">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/wamp64/www/GameStore/application/models/Category_models.php</file>
-            <file>file:/C:/wamp64/www/GameStore/application/controllers/home.php</file>
-            <file>file:/C:/wamp64/www/GameStore/application/views/modifyProduct.php</file>
             <file>file:/C:/wamp64/www/GameStore/application/models/Product_models.php</file>
+            <file>file:/C:/wamp64/www/GameStore/application/controllers/home.php</file>
             <file>file:/C:/wamp64/www/GameStore/application/views/addGame.php</file>
-            <file>file:/C:/wamp64/www/GameStore/application/views/listGame.php</file>
+            <file>file:/C:/wamp64/www/GameStore/application/models/user_models.php</file>
+            <file>file:/C:/wamp64/www/GameStore/application/views/signIn.php</file>
+            <file>file:/C:/wamp64/www/GameStore/application/views/test.php</file>
             <file>file:/C:/wamp64/www/GameStore/application/controllers/product.php</file>
+            <file>file:/C:/wamp64/www/GameStore/application/views/signUp.php</file>
+            <file>file:/C:/wamp64/www/GameStore/application/views/listGame.php</file>
             <file>file:/C:/wamp64/www/GameStore/application/views/header.php</file>
             <file>file:/C:/wamp64/www/GameStore/assets/css/style.css</file>
+            <file>file:/C:/wamp64/www/GameStore/application/config/config.php</file>
         </group>
     </open-files>
 </project-private>
