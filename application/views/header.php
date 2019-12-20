@@ -86,7 +86,7 @@
                                 </div>
                             </form>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#"><i class="fas fa-user-plus ml-5"></i> Pas de compte ? Inscivez-vous !</a>
+                            <a class="dropdown-item" href=" <?= base_url('index.php/user/signUp') ?>"><i class="fas fa-user-plus ml-5"></i> Pas de compte ? Inscivez-vous !</a>
                             <a class="dropdown-item" href="#"><i class="fas fa-question-circle ml-5"></i> Mot de passe oublier ?</a>
                         </div>
                     </li>

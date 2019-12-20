@@ -224,7 +224,7 @@
     .tab-content.current {
         display: inherit;
     }
-    /* CSS SignUp */
+    /* CSS page SignUp.php */
     
     .error {
         color: white;
@@ -232,4 +232,28 @@
     
     .labelSignUp {
         color: white;
+    }
+    /* CSS page SignUpSucces */
+    
+    .contentSuccesSignUp {
+        margin-top: 15rem;
+        background-color: rgb(255, 255, 255, 0.9) !important;
+        width: 100%;
+        height: 21rem;
+        border-radius: 5rem;
+    }
+    
+    .headingSuccesSignUp {
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+    
+    .messageSuccesSignUp {
+        font-weight: 700;
+        font-size: 2rem;
+    }
+    
+    .logoSignUp {
+        width: 5rem;
+        margin-left: 32rem;
     }

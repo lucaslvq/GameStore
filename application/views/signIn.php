@@ -1,12 +1,10 @@
 <?= form_open() ?>
 
-<label for="pseudo">Pseudo</label>
-<?= form_error('pseudo') ?>
-<input type="text" name="pseudo" value="<?php echo set_value('firstName'); ?>" size="50"/><br>
+<?= form_error('mail') ?>
+<input type="text" name="mail" value="<?php echo set_value('mail'); ?>" size="50" placeholder="Email"/><br>
 
-<label for="password">Mot de passe</label>
-<?= form_error('pseudo') ?>
-<input type="password" name="password" value="<?php echo set_value('password'); ?>" size="50"/><br>
+<?= form_error('password') ?>
+<input type="password" name="password" value="<?php echo set_value('password'); ?>" size="50" placeholder="Mot de passe"/><br>
 
 <div><input type="submit" value="Envoyer" /></div>
 
